@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and other head content -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Packages</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+       <!-- Navigation-->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a href="index.html">
+                <img src="Images/logo1.png" alt="logo" style="position: absolute; top: 02px; left: 10px; width = "100" height="50">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Show</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="allprojects.html">Projects</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="packages.html">Package Details</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-dark me-2" style="position: fixed; top: 100px; right: 10px;" type="button" onclick="openCartPage()">
+                        <i class="bi bi-cart-fill me-1"></i>
+                        Cart
+                        <span class="badge bg-dark text-white ms-1 rounded-pill" id="cartItemCount">0</span>
+                    </button>
+                    
+                    
+                    
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-->
+    <header class="bg-dark py-5" style="background-image: url('Images/packages.jpg');background-size: 100% 100%; background-attachment: fixed;" > 
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-black">
+                <h2 class="display-4 fw-bolder">Packages</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5" >
+        <div class="package" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+            <img src="Images/golden_package.jpg" alt="Golden Package" style="max-width: 80%; margin-bottom: 10px;" />
+            <h2 style="color: #777;">Golden Package</h2>
+            <p style="color: #555;">The ultimate luxury experience for those seeking opulence and sophistication. Includes personalized interior design services, premium furniture selection, and exquisite decor elements.</p>
+            <ul>
+                <li>Personalized Interior Design Consultation</li>
+                <li>Premium Furniture Selection</li>
+                <li>Exquisite Decor and Accessories</li>
+                <li>Exclusive Designer Fabrics and Materials</li>
+                <li>3D Visualizations of Your Space</li>
+                <li>Project Management and Execution</li>
+            </ul>
+        </div>
+    
+        <div class="package" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+            <img src="Images/silver_package.jpg" alt="Silver Package" style="max-width: 80%; margin-bottom: 10px;" />
+            <h2 style="color: #777;">Silver Package</h2>
+            <p style="color: #555;">Embrace style and comfort with a blend of modern design and functionality. Expert guidance in revamping your space with chic furnishings, artistic accents, and on-trend decor choices.</p>
+            <ul>
+                <li>Interior Design Consultation and Concept Development</li>
+                <li>Modern Furniture Selection</li>
+                <li>Stylish Decor and Artwork</li>
+                <li>Custom Color Schemes</li>
+                <li>2D Floor Plans and Layouts</li>
+                <li>Procurement Assistance</li>
+            </ul>
+        </div>
+    
+        <div class="package" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+            <img src="Images/bronze_package.jpg" alt="Bronze Package" style="max-width: 80%; margin-bottom: 10px;" />
+            <h2 style="color: #777;">Bronze Package</h2>
+            <p style="color: #555;">An affordable yet elegant option to elevate your living space. Includes professional design assistance and access to budget-friendly furniture and decor options.</p>
+            <ul>
+                <li>Design Consultation and Space Planning</li>
+                <li>Budget-Friendly Furniture Selection</li>
+                <li>Access to Affordable Decor Pieces</li>
+                <li>Color Palette Recommendations</li>
+                <li>Style and Theme Suggestions</li>
+                <li>Online Support and Design Tips</li>
+            </ul>
+        </div>
+    
+        <div class="package" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+            <img src="Images/essential_package.jpg" alt="Essential Package" style="max-width: 80%; margin-bottom: 10px;" />
+            <h2 style="color: #777;">Essential Package</h2>
+            <p style="color: #555;">The perfect choice for a quick and efficient room makeover. Focuses on transforming a single room with functional design solutions, furniture selection, and decor recommendations.</p>
+            <ul>
+                <li>Room-Specific Design Consultation</li>
+                <li>Furniture and Layout Planning</li>
+                <li>Decor and Styling Suggestions</li>
+                <li>Color Palette and Mood Board</li>
+                <li>3D Renderings of the Room</li>
+                <li>Shopping List and Implementation Guide</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-dark text-center text-white">
+        <div>
+            <a href="index.html">
+            <img src="Images/logo2.png" alt="logo" width = "200" height="100">
+            </a>
+          </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023-BLACK & WHITE SOLUTION
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+
+    <!--footer-->
+
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Your custom scripts -->
+    <script src="js/scripts.js"></script>
+    <!-- Include the cartscript.js file -->
+    <script src="js/cartscript.js"></script>
+    <script>
+        // Fetch and display cart items on page load
+        document.addEventListener('DOMContentLoaded', fetchCartItems);
+    </script>
+</body>
+</html>

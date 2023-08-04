@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Homepage</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a href="index.html">
+            <img src="Images/logo1.png" alt="logo" style="position: absolute; top: 02px; left: 10px; width = "100" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Show</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="allprojects.html">Projects</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="packages.html">Package Details</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-dark me-2" style="position: fixed; top: 100px; right: 10px;" type="button" onclick="openCartPage()">
+                        <i class="bi bi-cart-fill me-1"></i>
+                        Cart
+                        <span class="badge bg-dark text-white ms-1 rounded-pill" id="cartItemCount">0</span>
+                    </button>
+                    
+                    
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-->
+    
+    <header class="bg-dark py-5" style="background-image: url('Images/homeimg3.jpg');background-size: 100% 100%; background-attachment: fixed;" > 
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-black">
+                <h1 class="display-4 fw-bolder">BLACK & WHITE SOLUTION</h1>
+                <p class="lead fw-normal text-black">Discover a world where architecture and interior design harmoniously blend to transform spaces and inspire lives. At Black and White Solution, we are dedicated to crafting exquisite environments that transcend mere aesthetics. Our passion lies in creating captivating designs that captivate the senses, evoke emotions, and leave a lasting impression.</p>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+   
+    </header>
+    
+    <div>
+        <br>
+            <p style="text-align: center;font-size: 18px; font-family: Arial, sans-serif; color: #000000;">
+                Black and White Solution has evolved into a renowned, inventive, and energetic team of professionals offering consultancy services in architecture, landscape, and interior design in Sri Lanka.
+                With 90+ completed architecture and interior design projects in Sri Lanka and a vast range of ongoing projects both locally and overseas, we specialize in personalized residences, holiday homes and cabanas, apartments and office buildings, restaurants and retail buildings, industrial buildings, sports & leisure buildings, community and cultural buildings, hotels and resorts, landscape designs, and interior designs.
+                So if you are looking for architects or interior designers in Colombo, Sri Lanka, contact Black & White Solution.
+            <br>
+            <br>
+                We offer a delightful selection of high-quality products that cater to your every need. From stylish accessories to practical gadgets, our collection is carefully curated to enhance your lifestyle. Browse through our range and find the perfect items to add convenience, beauty, and joy to your everyday life. With fast shipping and excellent customer service, we are committed to making your shopping experience a pleasant one. Discover the joy of shopping with us and treat yourself to the finest products that elevate your living.
+            </p>
+    </div>
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="product-list">
+                <!-- Product data from the API will be added here dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <!-- Product cards will be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-dark text-center text-white">
+        <div>
+            <a href="index.html">
+                <img src="Images/logo2.png" alt="logo" width = "200" height="100">
+            </a>
+          </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023-BLACK & WHITE SOLUTION
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+
+    <!--footer-->
+
+    <!-- Bootstrap core JS... -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core theme JS... -->
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
